@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="920" height="210" viewBox="0 0 920 210" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .latin { font-family: 'Aero BC', 'Aero', sans-serif; font-size: 150px; fill: rgb(90,120,255); }
+    .jp { font-family: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', sans-serif; font-size: 150px; fill: rgb(90,120,255); }
+  </style>
+  <text x="4" y="156" class="latin">Shodo</text>
+  <!-- moved significantly closer -->
+  <text x="520" y="156" class="jp">書道</text>
+</svg>

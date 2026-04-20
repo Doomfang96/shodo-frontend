@@ -1,0 +1,12 @@
+footer {
+    height: 50px;
+    padding: 0 5px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p.thankyou {
+        color: rgb(0, 0, 0);
+    }
+}

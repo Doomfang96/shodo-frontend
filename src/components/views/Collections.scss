@@ -1,0 +1,103 @@
+.collectionsPage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Sections (collections + study items) */
+.collectionsSection,
+.itemsSection {
+    width: 100%;
+    max-width: 700px;
+
+    border: 1px solid #000;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titles */
+.collectionsPage h1,
+.collectionsPage h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Forms (search bar / inputs) */
+.formRow {
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.formRow input {
+    flex: 1;
+    text-align: center;
+}
+
+.formRow button {
+    white-space: nowrap;
+}
+
+/* Lists */
+.collectionsList,
+.itemsList {
+    width: 100%;
+    max-width: 500px;
+    list-style: none;
+    padding: 0;
+}
+
+.collectionsList li,
+.itemsList li {
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.collectionsList li:last-child,
+.itemsList li:last-child {
+    border-bottom: none;
+}
+
+/* Messages */
+.message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .collectionsPage {
+        padding: 20px 12px;
+    }
+
+    .collectionsSection,
+    .itemsSection {
+        padding: 16px;
+    }
+
+    .formRow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formRow input,
+    .formRow button {
+        width: 100%;
+    }
+}

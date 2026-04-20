@@ -1,0 +1,47 @@
+.authPage {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authForm {
+    width: 100%;
+    border: 1px solid #000;
+    background: #fff;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authForm .formRow {
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; // key fix
+}
+
+.authForm .formRow label {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.authForm .formRow input {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.authForm button {
+    width: 100%;
+    max-width: 300px;
+}

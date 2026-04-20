@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  background: #5a78ff;
+  color: #fff;
+  border: 1px solid #5a78ff;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4665f0;
+}
+
+input {
+  border: 1px solid #000;
+  padding: 10px 12px;
+  background: #fff;
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.pageContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.sectionBox {
+  border: 1px solid #000;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.formRow {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.formRow input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .pageContainer {
+    padding: 20px 12px;
+  }
+
+  button,
+  input {
+    width: 100%;
+  }
+
+  .formRow {
+    flex-direction: column;
+  }
+
+    .pageContainer {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sectionBox {
+      width: 100%;
+      max-width: 700px;
+    
+      border: 1px solid #000;
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+}

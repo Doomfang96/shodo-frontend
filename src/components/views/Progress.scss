@@ -1,0 +1,34 @@
+.progressPage {
+    padding: 30px;
+}
+
+.progressPage h1 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.progressGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.progressCard {
+    border: 1px solid #000;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.progressCard h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.progressCard p {
+    font-size: 36px;
+    margin: 0;
+}
