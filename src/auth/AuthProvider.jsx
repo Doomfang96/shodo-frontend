@@ -1,6 +1,7 @@
 import { createContext, useState, useEffect } from "react";
 
-const AuthContext = createContext(null); 
+const AuthContext = createContext(null);
+import { API_BASE_URL } from "../../config.js";
 
 export const AuthProvider = ({ children }) => {
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -9,7 +10,7 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const checkCurrentUser = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/auth/check", {
+        const res = await fetch(`${API_BASE_URL}/api/auth/check`, {
           credentials: "include",
         });
 
