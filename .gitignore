@@ -141,3 +141,5 @@ vite.config.ts.timestamp-*
 =======
 vite.config.ts.timestamp-*
 >>>>>>> 1bdcb5f96bd7b7b249b56a66eb567cdc6667efed
+.vercel
+.env*.local
